@@ -8,7 +8,7 @@ As this involves replicating the full data store on every host, it is only
 practical for situations where the write rate (<100/s total) and data volumes
 (<10GB total) are low.
 
-Recommended reading:
+Recommended reading: 
 
 * [Rick Branson's blog post on ctlstore](https://segment.com/blog/separating-our-data-and-control-planes-with-ctlstore/)
 * [Calvin talking about ctlstore at Synapse](https://vimeo.com/293246627)
