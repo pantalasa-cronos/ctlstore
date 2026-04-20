@@ -7,7 +7,7 @@ on:
 jobs:
   build:
     name: Executes a full build
-    runs-on: ubuntu-latest
+    runs-on: cronos
     services:
       mysql:
         image: mysql:5.6
@@ -42,7 +42,7 @@ jobs:
 
   publish-amd-production:
     needs: [ build ]
-    runs-on: ubuntu-latest
+    runs-on: cronos
     permissions:
       contents: read
       packages: write
@@ -80,7 +80,7 @@ jobs:
 
   publish-amd-pr:
     needs: [ build ]
-    runs-on: ubuntu-latest
+    runs-on: cronos
     permissions:
       contents: read
       packages: write
