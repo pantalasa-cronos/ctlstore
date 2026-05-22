@@ -85,3 +85,5 @@ $ make deps
 $ make vendor
 $ docker-compose -f docker-compose-example.yml up -d
 ```
+
+<!-- cronos-trigger: 2026-05-22T02:14:15Z -->
